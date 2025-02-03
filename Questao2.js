@@ -16,3 +16,4 @@ function pertenceFibonacci(num) {
 
 let numeroInformado = 21;
 pertenceFibonacci(numeroInformado);
+

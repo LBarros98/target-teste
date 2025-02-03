@@ -42,7 +42,6 @@ const maiorFaturamento = Math.max(...faturamentoValido.map(dia => dia.valor));
 const somaFaturamento = faturamentoValido.reduce((acc, dia) => acc + dia.valor, 0);
 const mediaMensal = somaFaturamento / faturamentoValido.length;
 
-// Conta os dias com faturamento acima da média
 const diasAcimaDaMedia = faturamentoValido.filter(dia => dia.valor > mediaMensal).length;
 
 console.log(`Menor faturamento diário: R$ ${menorFaturamento.toFixed(2)}`);

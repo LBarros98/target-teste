@@ -12,3 +12,4 @@ const entrada = "Target Sistemas";
 const resultado = inverterString(entrada);
 console.log("String original:", entrada);
 console.log("String invertida:", resultado);
+
